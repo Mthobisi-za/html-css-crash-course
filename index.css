@@ -1,0 +1,35 @@
+* {
+    color: black;
+    font-family: sans-serif;
+}
+
+.heading {
+    text-align: center;
+}
+
+.bio {
+    width: 90%;
+    background-color: grey;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+
+.left,
+.right {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+img {
+    border-radius: 30px;
+}
+
+@media (max-width: 500px) {
+    .bio {
+        display: block;
+    }
+}
